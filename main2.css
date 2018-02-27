@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.row2 .col1 {
+    flex-basis: 50%;
+}
+
+.row2 .col2 {
+    flex-basis: 50%;
+}
+
+.row2 .col2 h4 {
+    align-content: right;
+}
+
+#food-item-inline{
+    display: inline;
+    /* font-size: 25px; */
+}
+
+.food-item h5 {
+   float: right;
+   padding-right: 200px;
+   /* font-size: 20px; */
+}
+
+.food-item {
+    padding: 20px;
+}
+
+.food-item h3 {
+    padding-left: 100px;
+    font-size: 25px;
+}
+
+.food-item h4 {
+    padding-left: 100px;
+    font-size: 18px;
+}
+
+
+/* .food-item h1 {
+    flex-basis: 60%;
+}
+
+.food-item h3 {
+    flex-basis: 40%;
+    float: right;
+} */
+
+.row1 .column1 {
+    flex-basis: 50%;
+}
+
+.row1 .column2 {
+    flex-basis: 50%;
+}
+
+.main {
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid black;
+    width: 1360px;
+    background-color: pink;
+}
+
+.main h1 {
+    color: rgb(105, 100, 100);
+}
+
+button {
+    font-size: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    border-style: solid;
+    width: 320px;
+    align-self: center;
+    color: grey;
+}
+
+ul {
+    font-size: 20px;
+}
+
+a {
+    padding: 30px;
+}
+
+.column1 h1 {
+    padding-left: 50px;
+    color: rgb(105, 100, 100);
+}
+
+footer {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+footer h5 {
+    flex: 1;
+    padding-left: 50px;
+}
+
+footer .footer-div {
+    float: 1;
+    padding-right: 50px;
+}
